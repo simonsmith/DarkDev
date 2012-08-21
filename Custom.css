@@ -148,10 +148,21 @@
 	color: #CC6600 !important;
 }
 
-/*	Source Code - Right Panel
+/*  Source Code - Pane
 ------------------------------------------------*/
+
+/* Generic */
+
+#-webkit-web-inspector #main-panels .pane > .title,
+#-webkit-web-inspector #main-panels .sidebar-separator,
+#-webkit-web-inspector #main-panels .sidebar-pane-subtitle {
+    font-family: sans-serif !important;
+}
+
+/* Right Pane */
+
 #-webkit-web-inspector .split-view-sidebar-right .webkit-css-property {
-	color: #D66B5F !important;		
+    color: #D66B5F !important;
 }
 
 /*	Network
