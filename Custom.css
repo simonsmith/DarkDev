@@ -21,7 +21,7 @@
 /* Background */
 #-webkit-web-inspector #elements-content.source-code,
 #-webkit-web-inspector .text-editor-contents,
-#-webkit-web-inspector .console #console-messages {
+#-webkit-web-inspector #console-messages {
 	background: #2D2828 !important;
 }
 
@@ -31,10 +31,10 @@
 #-webkit-web-inspector .webkit-css-number,
 #-webkit-web-inspector .webkit-javascript-ident,
 #-webkit-web-inspector .webkit-line-content,
-#-webkit-web-inspector .console .title,
-#-webkit-web-inspector .console .separator,
-#-webkit-web-inspector .console .value,
-#-webkit-web-inspector .console .source-code {
+#-webkit-web-inspector #console-messages .title,
+#-webkit-web-inspector #console-messages .separator,
+#-webkit-web-inspector #console-messages .value,
+#-webkit-web-inspector #console-messages .source-code {
 	color: #E6E1DC !important;
 }
 
@@ -165,6 +165,10 @@
     color: #D66B5F !important;
 }
 
+#-webkit-web-inspector .selector-matches {
+	color: green !important;
+}
+
 /*	Network
 ------------------------------------------------*/
 #-webkit-web-inspector .header-value {
@@ -185,7 +189,7 @@
 	color: #fff !important;
 }
 
-#-webkit-web-inspector .console .console-formatted-boolean {
+#-webkit-web-inspector .console-formatted-boolean {
 	color: #CC6600 !important;	
 }
 
