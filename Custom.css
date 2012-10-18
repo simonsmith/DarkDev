@@ -167,6 +167,7 @@
 
 #-webkit-web-inspector .selector-matches {
 	color: green !important;
+	font-weight: bold;
 }
 
 /*	Network
