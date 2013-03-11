@@ -222,6 +222,10 @@
 	margin-bottom: 3px;
 }
 
+#-webkit-web-inspector .console .console-formatted-object {
+	color: #aaa !important;
+}
+
 #-webkit-web-inspector .console .console-formatted-string {
 	color: #8C8769 !important;
 }
