@@ -9,9 +9,9 @@ Let me know if you find issues with it
 ## Installation 
 Simply override `Custom.css` in the `User Stylesheets` directory:
 
-**Mac:** `~/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css`
+**Mac:** `~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css`
 
-**Mac (Canary):** `~/Library/Application Support/Google/Chrome Canary/Default/User StyleSheets/Custom.css`
+**Mac (Canary):** `~/Library/Application\ Support/Google/Chrome\ Canary/Default/User\ StyleSheets/Custom.css`
 
 **PC:** `C:\Users\YourUsername\AppData\Local\Google\Chrome\UserData\Default\User StyleSheets\Custom.css`
 
