@@ -12,15 +12,11 @@
 #-webkit-web-inspector #console-message,
 #-webkit-web-inspector .styles-section *,
 #-webkit-web-inspector .text-editor-contents,
-#-webkit-web-inspector #console-view * {
-    font-size: 13px !important;
-    font-family: Monaco, Consolas, "Lucida Console", monospace !important;
-    line-height: 1.6 !important;
-}
-
-#-webkit-web-inspector .styles-section *,
+#-webkit-web-inspector .webkit-line-number,
 #-webkit-web-inspector #console-view * {
     font-size: 12px !important;
+    font-family: Monaco, Consolas, "Lucida Console", monospace !important;
+    line-height: 1.6 !important;
 }
 
 /* Background */
