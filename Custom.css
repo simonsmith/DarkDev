@@ -200,6 +200,7 @@
     color: #fff !important;
 }
 
+#-webkit-web-inspector .console-formatted-number,
 #-webkit-web-inspector .console-formatted-boolean {
     color: #CC6600 !important;
 }
@@ -234,6 +235,10 @@
 
 #-webkit-web-inspector .console-formatted-object {
     color: #aaa !important;
+}
+
+#-webkit-web-inspector #console-messages .console-debug-level .webkit-html-resource-link:not(.console-message-url) {
+    color: #84e198 !important;
 }
 
 #-webkit-web-inspector .console-object-preview .console-formatted-object {
