@@ -1,129 +1,128 @@
 /*
-*	DarkDev - A theme for Chrome Developer Tools
-*	By Simon Smith - @blinkdesign;
+*   DarkDev - A theme for Chrome Developer Tools
+*   By Simon Smith - @blinkdesign;
 */
 
-
-/*	General
+/*  General
 ------------------------------------------------*/
 
 /* Common typography */
-#-webkit-web-inspector .source-code,
-#-webkit-web-inspector #console-message,
-#-webkit-web-inspector .styles-section *,
-#-webkit-web-inspector .text-editor-contents,
-#-webkit-web-inspector .webkit-line-number,
-#-webkit-web-inspector #console-view * {
+#-blink-dev-tools .source-code,
+#-blink-dev-tools #console-message,
+#-blink-dev-tools .styles-section *,
+#-blink-dev-tools .text-editor-contents,
+#-blink-dev-tools .webkit-line-number,
+#-blink-dev-tools #console-view * {
     font-size: 12px !important;
     font-family: Monaco, Consolas, "Lucida Console", monospace !important;
     line-height: 1.6 !important;
 }
 
 /* Background */
-#-webkit-web-inspector #elements-content.source-code,
-#-webkit-web-inspector .text-editor-contents,
-#-webkit-web-inspector #console-messages {
+#-blink-dev-tools #elements-content.source-code,
+#-blink-dev-tools .text-editor-contents,
+#-blink-dev-tools #console-messages {
     background: #2D2828 !important;
 }
 
 /* Off white text colour */
-#-webkit-web-inspector .elements .outline-disclosure > ol,
-#-webkit-web-inspector .webkit-html-text-node,
-#-webkit-web-inspector .webkit-css-number,
-#-webkit-web-inspector .webkit-javascript-ident,
-#-webkit-web-inspector .webkit-line-content,
-#-webkit-web-inspector #console-messages .title,
-#-webkit-web-inspector #console-messages .separator,
-#-webkit-web-inspector #console-messages .value,
-#-webkit-web-inspector #console-messages .source-code {
+#-blink-dev-tools .elements .outline-disclosure > ol,
+#-blink-dev-tools .webkit-html-text-node,
+#-blink-dev-tools .webkit-css-number,
+#-blink-dev-tools .webkit-javascript-ident,
+#-blink-dev-tools .webkit-line-content,
+#-blink-dev-tools #console-messages .title,
+#-blink-dev-tools #console-messages .separator,
+#-blink-dev-tools #console-messages .value,
+#-blink-dev-tools #console-messages .source-code {
     color: #E6E1DC !important;
 }
 
-/*	Source Code
+/*  Source Code
 ------------------------------------------------*/
 
 /* HTML */
 
-#-webkit-web-inspector .webkit-html-tag {
+#-blink-dev-tools .webkit-html-tag {
     color: #858EF4 !important;
 }
 
-#-webkit-web-inspector .webkit-html-attribute.editing * {
+#-blink-dev-tools .webkit-html-attribute.editing * {
     color: #000 !important;
 }
 
-#-webkit-web-inspector .webkit-html-attribute-name {
+#-blink-dev-tools .webkit-html-attribute-name {
     color: #CC99FF !important;
 }
 
-#-webkit-web-inspector .text-editor-contents .webkit-html-resource-link,
-#-webkit-web-inspector .text-editor-contents .webkit-html-external-link {
+#-blink-dev-tools .text-editor-contents .webkit-html-resource-link,
+#-blink-dev-tools .text-editor-contents .webkit-html-external-link {
     color: #84e198 !important;
 }
 
-#-webkit-web-inspector .webkit-html-attribute-value {
+#-blink-dev-tools .webkit-html-attribute-value {
     color: #AD935C !important;
 }
 
-#-webkit-web-inspector .webkit-html-comment {
+#-blink-dev-tools .webkit-html-comment {
     color: #797979 !important;
 }
 
-#-webkit-web-inspector #elements-content .hovered,
-#-webkit-web-inspector #elements-content .selected,
-#-webkit-web-inspector #console-view .hovered,
-#-webkit-web-inspector #console-view .selected {
+#-blink-dev-tools #elements-content .hovered,
+#-blink-dev-tools #elements-content .selected,
+#-blink-dev-tools #console-view .hovered,
+#-blink-dev-tools #console-view .selected {
     background: #444 !important;
     border-radius: 3px;
 }
 
-#-webkit-web-inspector .properties-tree li.parent::before,
+#-blink-dev-tools .properties-tree li.parent::before,
 .section > .header::before {
     background-size: 320px 125px !important;
 }
 
 /* CSS */
 
-#-webkit-web-inspector .webkit-css-comment {
+#-blink-dev-tools .webkit-css-comment {
     color: #797979 !important;
 }
 
-#-webkit-web-inspector .webkit-css-color {
+#-blink-dev-tools .webkit-css-color {
     color: #AFA2FE !important;
 }
 
-#-webkit-web-inspector .webkit-css-selector {
+#-blink-dev-tools .webkit-css-selector {
     color: #E4A109 !important;
-} 
+}
 
-#-webkit-web-inspector .webkit-css-property {
+#-blink-dev-tools .webkit-css-property {
     color: #9a2f33 !important;
 }
 
-#-webkit-web-inspector .webkit-css-keyword {
+#-blink-dev-tools .webkit-css-keyword {
     color: #D66B5F !important;
 }
 
-#-webkit-web-inspector .webkit-css-important {
+#-blink-dev-tools .webkit-css-important {
     background: #CC0033 !important;
     color: #fff !important;
 }
 
 /* Javascript */
 
-#-webkit-web-inspector .webkit-javascript-comment {
+#-blink-dev-tools .webkit-javascript-comment {
     color: #797979 !important;
 }
 
-#-webkit-web-inspector .webkit-javascript-keyword {
+#-blink-dev-tools .webkit-javascript-keyword {
     color: #16B1C7 !important;
 }
 
-#-webkit-web-inspector .webkit-javascript-string {
+#-blink-dev-tools .webkit-javascript-string {
     color: #8C8769 !important;
 }
 
-#-webkit-web-inspector .webkit-javascript-number {
+#-blink-dev-tools .webkit-javascript-number {
     color: #CC6600 !important;
 }
 
@@ -132,102 +131,102 @@
 
 /* Generic */
 
-#-webkit-web-inspector #main-panels .pane > .title,
-#-webkit-web-inspector #main-panels .sidebar-separator,
-#-webkit-web-inspector #main-panels .sidebar-pane-subtitle {
+#-blink-dev-tools #main-panels .pane > .title,
+#-blink-dev-tools #main-panels .sidebar-separator,
+#-blink-dev-tools #main-panels .sidebar-pane-subtitle {
     font-family: sans-serif !important;
 }
 
 /* Right Pane */
 
-#-webkit-web-inspector .split-view-sidebar-right .webkit-css-property {
+#-blink-dev-tools .split-view-sidebar-right .webkit-css-property {
     color: #D66B5F !important;
 }
 
-#-webkit-web-inspector .selector-matches {
+#-blink-dev-tools .selector-matches {
     color: green !important;
     font-weight: bold;
 }
 
-#-webkit-web-inspector .styles-section .webkit-html-resource-link {
+#-blink-dev-tools .styles-section .webkit-html-resource-link {
     color: #3f87c7 !important;
 }
 
-/*	Network
+/*  Network
 ------------------------------------------------*/
-#-webkit-web-inspector .header-value {
+#-blink-dev-tools .header-value {
     font-size: 11px !important;
 }
 
-/*	Console
+/*  Console
 ------------------------------------------------*/
-#-webkit-web-inspector .console-user-command > .console-message-text {
+#-blink-dev-tools .console-user-command > .console-message-text {
     color: #8bb5cd !important;
 }
 
-#-webkit-web-inspector #console-messages a {
+#-blink-dev-tools #console-messages a {
     color: #ccc !important;
 }
 
-#-webkit-web-inspector #console-messages a:hover {
+#-blink-dev-tools #console-messages a:hover {
     color: #fff !important;
 }
 
-#-webkit-web-inspector .console-formatted-number,
-#-webkit-web-inspector .console-formatted-boolean {
+#-blink-dev-tools .console-formatted-number,
+#-blink-dev-tools .console-formatted-boolean {
     color: #CC6600 !important;
 }
 
-#-webkit-web-inspector .console-error-level .console-message-text,
-#-webkit-web-inspector .console-error-level .section .header .title {
+#-blink-dev-tools .console-error-level .console-message-text,
+#-blink-dev-tools .console-error-level .section .header .title {
     color: #fff !important;
     background-color: #921515 !important;
     padding-left: 3px;
     border-radius: 5px;
 }
 
-#-webkit-web-inspector .console-error-level .children .source-code {
+#-blink-dev-tools .console-error-level .children .source-code {
     background: #66150e !important;
     padding: 0 4px !important;
 }
 
-#-webkit-web-inspector .console-error-level .properties-tree {
+#-blink-dev-tools .console-error-level .properties-tree {
     font-weight: normal !important;
 }
 
-#-webkit-web-inspector .console-message, 
-#-webkit-web-inspector .console-user-command {
+#-blink-dev-tools .console-message,
+#-blink-dev-tools .console-user-command {
     border-color: #3a3a3a !important;
     padding-top: 5px !important;
 }
 
-#-webkit-web-inspector .console-message {
+#-blink-dev-tools .console-message {
     padding-bottom: 5px !important;
     margin-bottom: 3px;
 }
 
-#-webkit-web-inspector .console-formatted-object {
+#-blink-dev-tools .console-formatted-object {
     color: #aaa !important;
 }
 
-#-webkit-web-inspector #console-messages .console-debug-level .webkit-html-resource-link:not(.console-message-url) {
+#-blink-dev-tools #console-messages .console-debug-level .webkit-html-resource-link:not(.console-message-url) {
     color: #84e198 !important;
 }
 
-#-webkit-web-inspector .console-object-preview .console-formatted-object {
+#-blink-dev-tools .console-object-preview .console-formatted-object {
     color: #fff !important;
 }
 
-#-webkit-web-inspector .console-formatted-string {
+#-blink-dev-tools .console-formatted-string {
     color: #8C8769 !important;
 }
 
-#-webkit-web-inspector #console-view .name {
+#-blink-dev-tools #console-view .name {
     color: #d67fe2 !important;
-} 
+}
 
-/*	Resource
+/*  Resource
 ------------------------------------------------*/
-#-webkit-web-inspector .resource-headers-view .outline-disclosure .header-name {
+#-blink-dev-tools .resource-headers-view .outline-disclosure .header-name {
     color: #6a130c !important;
 }
