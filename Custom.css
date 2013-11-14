@@ -12,8 +12,11 @@
 #-blink-dev-tools .styles-section *,
 #-blink-dev-tools .text-editor-contents,
 #-blink-dev-tools .webkit-line-number,
-#-blink-dev-tools #console-view * {
+#-blink-dev-tools #console-view *,
+#-blink-dev-tools .monospace,
+#-blink-dev-tools .properties-tree li {
     font-size: 12px !important;
+    font-style: normal !important;
     font-family: Monaco, Consolas, "Lucida Console", monospace !important;
     line-height: 1.6 !important;
 }
@@ -223,6 +226,10 @@
 
 #-blink-dev-tools #console-view .name {
     color: #d67fe2 !important;
+}
+
+#-blink-dev-tools .console-formatted-object .name {
+    color: rgb(168, 210, 248) !important;
 }
 
 /*  Resource
